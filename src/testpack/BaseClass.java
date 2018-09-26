@@ -7,6 +7,7 @@ public class BaseClass {
 
 		BaseClass obj = new BaseClass();
 		obj.palndromByVignesh();
+		obj.sivasankarPalindrome();
 	}
 
 	public void palndromByVignesh() {
