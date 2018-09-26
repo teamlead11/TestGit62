@@ -15,14 +15,14 @@ public class BaseClass {
 
 	}
 	public void palindromeByRamya()
-	{   int len;
+	{  
+		//Polindrome using immutable string
 		String str,rev="";
 		@SuppressWarnings("resource")
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter your string");
 		str=sc.nextLine();
-		len=str.length();
-		for(int i=len-1;i>=0;i--)
+		for(int i=str.length()-1;i>=0;i--)
 		{
 			rev=rev+str.charAt(i);
 		}
@@ -32,6 +32,7 @@ public class BaseClass {
 		}else{
 			System.out.println("This's not polindrome string");
 		}
-		}
+	}
+	}
 
-}
+
