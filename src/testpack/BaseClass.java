@@ -12,5 +12,21 @@ public class BaseClass {
 	public void palndromByVignesh() {
 
 	}
+	public void sivasankarPalindrome() {
+		String s = "amma";
+		String r = null;
+		System.out.println(s);
+		int l=s.length();
+		for (int i = l-1; i >=0; i--) {
+			System.out.println(i);
+			r=r+s.charAt(l);
+		
+		}
+		if(s.equals(r)){
+			System.out.println(r +"is Palindrome");
+			
+		}
+
+	}
 
 }
