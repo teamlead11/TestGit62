@@ -8,12 +8,18 @@ public class BaseClass {
 		// TODO Auto-generated method stub
 		BaseClass obj = new BaseClass();
 		obj.palndromByVignesh();
-		obj.palindromeByRamya();
+    obj.palindromeByRamya();
+		obj.sivasankarPalindrome();
+
+		
+
 	}
 
 	public void palndromByVignesh() {
 
 	}
+
+
 	public void palindromeByRamya()
 	{   int len;
 		String str,rev="";
@@ -33,5 +39,23 @@ public class BaseClass {
 			System.out.println("This's not polindrome string");
 		}
 		}
+  	public void sivasankarPalindrome() {
+		String s = "amma";
+		String r = null;
+		System.out.println(s);
+		int l=s.length();
+		for (int i = l-1; i >=0; i--) {
+			System.out.println(i);
+			r=r+s.charAt(l);
+		
+		}
+		if(s.equals(r)){
+			System.out.println(r +"is Palindrome");
+			
+		}
+
+	}
+
+
 
 }
