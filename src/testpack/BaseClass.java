@@ -10,7 +10,7 @@ public class BaseClass {
 		obj.palndromByVignesh();
     obj.palindromeByRamya();
 		obj.sivasankarPalindrome();
-
+       obj.ajithkumarPalindrome();
 		
 
 	}
@@ -56,6 +56,22 @@ public class BaseClass {
 
 	}
 
+  	public void ajithkumarPalindrome() {
+      String s = "MALAYALAM";
+      String reverse = "";
+      for (int i =s.length()-1; i >=0; i--) {
+		reverse += s.charAt(i);
+		if(reverse.equalsIgnoreCase(s)) {
+			System.out.println(s+ "palindrome");
+		}else {
+			System.out.println(s+ "not a palindrome");
+		
+		}
+	}
 
+
+
+
+}
 
 }
