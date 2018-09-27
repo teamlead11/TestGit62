@@ -24,7 +24,7 @@ public class BaseClass {
 	@SuppressWarnings("resource")
 	public void palindromeByRamya()
 	{  
-		//Polindrome using immutable string
+		//Polindrome Program using immutable string
 		String str,rev="";
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your string");
