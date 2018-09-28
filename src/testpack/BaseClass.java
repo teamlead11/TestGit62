@@ -12,6 +12,10 @@ public class BaseClass {
 		obj.sivasankarPalindrome();
 		obj.ajithkumarPalindrome();
 		obj.liviyaPalindrome();
+
+		obj.nisha();
+		obj.stingpaljoy();
+		obj.vicky();
 		obj.sivabranch1();
 
 	}
@@ -85,6 +89,55 @@ public class BaseClass {
 			System.out.println("not palindrome");
 	}
 
+	public void nisha() {
+
+		int r, sum = 0, temp;
+		int n = 454;
+		temp = n;
+		while (n > 0) {
+			r = n % 10;
+			sum = (sum * 10) + r;
+			n = n / 10;
+		}
+		if (temp == sum)
+			System.out.println("palindrome number ");
+		else
+			System.out.println("not palindrome");
+	}
+
+	public void stingpaljoy() {
+		String em1, rev = "";
+		System.out.println("Enter any String");
+		Scanner em = new Scanner(System.in);
+		em1 = em.nextLine();
+		int l = em1.length();
+		System.out.println(em1);
+		for (int i = l - 1; i >= 0; i--) {
+			rev = rev + em1.charAt(i);
+		}
+		if (em1.equals(rev)) {
+			System.out.println("palindrome");
+		} else {
+			System.out.println("not palindrome");
+		}
+	}
+
+	public void vicky() {
+		int r, sum = 0, temp;
+		int n = 454;
+		temp = n;
+		while (n > 0) {
+			r = n % 10;
+			sum = (sum * 10) + r;
+			n = n / 10;
+		}
+		if (temp == sum)
+			System.out.println("palindrome number ");
+		else
+			System.out.println("not palindrome");
+
+	}
+
 	public void sivabranch1() {
 		// TODO Auto-generated method stub
 		int r, sum = 0, temp;
@@ -97,6 +150,5 @@ public class BaseClass {
 		}
 		if (temp == sum)
 			System.out.println("palindrome number ");
-
 	}
 }
