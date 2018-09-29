@@ -15,6 +15,7 @@ public class BaseClass {
 		obj.nisha();
 		obj.stingpaljoy();
 		obj.vicky();
+		obj.polindromeBySumathi();
 
 	}
 
@@ -134,5 +135,22 @@ public class BaseClass {
 		else
 			System.out.println("not palindrome");
 	}
+	public void polindromeBySumathi() 
+	{
+		int r, sum = 0, temp;		
+		int n = 454;
+		temp = n;
+		while (n > 0) {
+			r = n % 10;
+			sum = (sum * 10) + r;
+			n = n / 10;
+		}
+		if (temp == sum)
+			System.out.println("palindrome number ");
+		else
+			System.out.println("not palindrome");
+	
 }
+}
+
 
