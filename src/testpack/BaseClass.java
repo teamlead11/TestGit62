@@ -22,11 +22,12 @@ public class BaseClass {
 	public void palndromByVignesh() {
 
 	}
-	@SuppressWarnings("resource")
+
 	public void palindromeByRamya()
 	{  
 		//Polindrome Program using  immutable string concept
 		String str,rev="";
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your string");
 		str=sc.nextLine();
