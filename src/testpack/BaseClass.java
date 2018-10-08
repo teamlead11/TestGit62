@@ -16,7 +16,7 @@ public class BaseClass {
 		obj.stingpaljoy();
 		obj.vicky();
 		obj.polindromeBySumathi();
-
+obj.palindromeByAkshara();
 	}
 
 	public void palndromByVignesh() {
